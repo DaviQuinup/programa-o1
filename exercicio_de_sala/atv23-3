@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main ()
+{
+char opcao; 'z';
+while(opcao != 'a' &&
+      opcao != 'b' &&
+      opcao != 'c')
+{
+printf (escolha uma opção:\n");
+printf(" a) 10\n");
+printf(" b) 20\n");
+printf(" c) 30\n");
+ scanf("%c" , &opção: %c\n" , opcao);
+   }
+   }
