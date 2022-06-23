@@ -1,0 +1,9 @@
+# inclui  < stdio.h >
+# inclui  < stdlib.h >
+int  main () {
+  int ;
+  for (i= 0 ; i<= 100 ; i++) {
+    printf ( " O numero e: %d \n " ,i);
+  }
+  }
+  
