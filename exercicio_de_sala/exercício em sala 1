@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main ()
+{
+float A, B, C, D;
+
+printf (" escreva o valor da bola A, B, C, D:\n ");
+scanf ("%f %f %f %f", &A,&B,&C,&D);
+if (A == B + C + D && B + C == D && B == C)
+    printf ("Está equilibrado\n");
+    else 
+        printf ("Não esta equilibrado\n");
+}
