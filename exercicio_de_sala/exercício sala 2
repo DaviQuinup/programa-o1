@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main ()
+{
+	int n, m, vez;
+	vez = 0;
+	printf (" escreva a quantidade de bolinhas ganhadas:\n");
+	scanf ("%d" , &n);
+	printf("insira a quantidacde do bolinhas comida por vez:\n");
+	scanf ("%d" , &m);  
+	while (n > 0)
+	{
+		if (vez == 0){
+			printf ("Paula   -  ");
+			vez = 1;
+		} else {
+			printf ("Carlos  -  ");
+			vez = 0;
+		}
+		n = n - m;
+		if (n < 0)
+			printf("0\n");
+		else
+			printf("%d\n", n);
+	}
+	if (vez == 0)
+		printf("Carlos ganhou\n");
+	else
+		printf("Paula ganhou\n");
+}
