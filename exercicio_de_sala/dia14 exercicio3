@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  int num, flag, i, pos, vet[50];
+  for (pos=1; pos<50; pos+=2) 
+  {
+  printf ("%d %d\n", pos, pos+1);
+  }   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
