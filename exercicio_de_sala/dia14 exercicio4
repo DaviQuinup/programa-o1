@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  int i, vet[5]={2,3,5,7};
+ for (i=0; i<4; i++)
+      vet[i] = vet[i] * 2;
+ 
+ for (i=0; i<4; i++)
+      printf ("vet[%d] = %d\n", i, vet[i]);
+ 
+}
