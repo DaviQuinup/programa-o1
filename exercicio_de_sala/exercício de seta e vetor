@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int vet[3], i, soma=0;
+   for(i=0;i<3;i++){
+ printf("digite o valor:");
+ scanf ("%d",&vet[i]);
+}
+for (i=0;i<3;i++){
+    soma = soma + vet[i];
+}
+printf("média:%d\n",soma/3);
+}
