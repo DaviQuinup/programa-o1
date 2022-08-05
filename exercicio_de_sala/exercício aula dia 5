@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct{
+       float peso, altura;
+   }tipoIMC;
+   
+int main()
+{
+       tipoIMC *imc;
+       imc = malloc(sizeof(tipoIMC));
+       printf("qial seu peso:");
+       scanf("%f",&imc->peso);
+       printf("qual sua altura:");
+       scanf("%f",&imc->altura);
+       printf("%f \n %f",imc->peso,imc->altura);
+   
+}
